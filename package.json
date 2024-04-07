@@ -1,0 +1,24 @@
+{
+  "name": "project-readme-generator",
+  "version": "1.0.0",
+  "description": "This is a Readme Generator that will create a Readme file for your project. It will ask you a series of questions and then generate a Readme file for you.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Crlyhdfrd/Read-me-generator.git"
+  },
+  "author": "Sean Brown",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Crlyhdfrd/Read-me-generator/issues"
+  },
+  "homepage": "https://github.com/Crlyhdfrd/Read-me-generator#readme",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "readline": "^1.3.0",
+    "readline-sync": "^1.4.10"
+  }
+}
