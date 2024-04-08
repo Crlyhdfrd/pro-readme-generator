@@ -17,7 +17,19 @@ function renderLicenseBadge(license) {
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) {}
+function renderLicenseLink(license) {
+  if (license == "MIT") {
+    return "[MIT](https://opensource.org/licenses/MIT)"
+  } else if (license == "Apache") {
+    return "[Apache](https://opensource.org/licenses/Apache-2.0)"
+  } else if (license == "GPL") {
+    return "[GPL](https://www.gnu.org/licenses/gpl-3.0)"
+  } else if (license == "BSD") {
+    return "[BSD](https://opensource.org/licenses/BSD-3-Clause)"
+  } else {
+    return "";
+  }
+}
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
@@ -38,14 +50,14 @@ function generateMarkdown(data) {
   markdown += "## Description\n";
   markdown += data[1] + "\n";
   markdown += "## Table of Contents\n";
-  markdown += "- [Installation](#installation) \n- [Usage](#usage)\n- [Credits](#credits)\n- [License](#license)\n";
+  markdown += "- [Installation](#installation) \n- [Usage](#usage)\n- [Credits](#credits)\n- [License](#license)\n- [Questions](#questions)\n- [Contributing](#contributing)\n";
   markdown += "## Installation\n";
   markdown += "## Usage\n";
   markdown += "## Credits\n";
   markdown += "## License\n";
   markdown += "## Questions\n";
   markdown += "[Github Profile](https://github.com/" + data[7] + ")\n";
-  markdown += "## Contributing"
+  markdown += "## Contributing";
   
   return markdown;
 }

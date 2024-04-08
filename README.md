@@ -7,6 +7,8 @@ description
 - [Usage](#usage)
 - [Credits](#credits)
 - [License](#license)
+- [Questions](#questions)
+- [Contributing](#contributing)
 ## Installation
 ## Usage
 ## Credits
