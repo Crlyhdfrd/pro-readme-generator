@@ -2,20 +2,7 @@
 const readlinesync = require("readline-sync")
 const fs = require ("fs")
 const generateMarkdown = require("./utils/generateMarkdown")
-//const path = require("path")
-
-// TODO: Create an array of questions for user input
-const questions = [
-  "What is your project title?", 
-"Please describe your project.", 
-"How is your project intalled?", 
-"What is your project used for?", 
-"What is your project contributing?", 
-"What is your project testing?",
-"What is your project license? MIT, Apache, GPL, BSD, None" ,
-"What is your Github username?",
-"What is your email address?",
-"Any Questions?"];
+const questions = require("./utils/questions")
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
