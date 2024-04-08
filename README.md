@@ -1,5 +1,5 @@
 # generator
-![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ## Description
 description
 ## Table of Contents

@@ -43,7 +43,18 @@ function askQuestions () {
 //TODO: Create a function to initialize app
 function init() {
   // let answers = askQuestions();
-  let answers = ["generator", "description", "installation", "usage", "contributing", "testing", "MIT", "Crlyhdfrd", "email", "questions"]; 
+  let answers = [
+    "generator",
+    "description",
+    "installation",
+    "usage",
+    "contributing",
+    "testing",
+    "MIT",
+    "Crlyhdfrd",
+    "email",
+    "questions",
+  ]; 
   output = generateMarkdown(answers);
   console.log(output);
   // writeToFile("README.md", generateMarkdown({ answers }));
