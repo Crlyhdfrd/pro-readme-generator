@@ -1,18 +1,33 @@
-# generator
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-## Description
-description
-## Table of Contents
-- [Installation](#installation) 
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
-- [Questions](#questions)
-- [Contributing](#contributing)
-## Installation
-## Usage
-## Credits
-## License
-## Questions
-[Github Profile](https://github.com/Crlyhdfrd)
-## Contributing
+# pro readme
+  
+
+  ## Description
+  generates a readme
+
+  ## Table of Contents
+
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Credits](#credits)
+  * [Contributing](#contributing)
+  * [Questions](#questions)
+   
+
+    ## Installations
+    nodemon
+
+    ## Usage
+    generating a readme
+    
+    ## License 
+     [MIT](https://opensource.org/licenses/MIT)
+
+    ## Contributors
+    
+
+    ## Questions
+    For Additional questions, contact me at the email provided below.
+
+    - Github: [crly](https://github.com/undefined/)
+    - Email: crly@gmail.com
+  
